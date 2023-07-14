@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
         findViewById<TextView>(R.id.nickname_text).setOnClickListener {
             updateNickname(it)
         }
+        //comment
     }
 
     private fun addNickname(view: View) {
